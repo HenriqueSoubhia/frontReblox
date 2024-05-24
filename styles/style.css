@@ -34,6 +34,10 @@ h3{
     font-size: 1.5rem;
 }
 
+h2{
+    font-size: 2.75rem;
+}
+
 .btn, button{
     padding: 12px 16px;
     background-color: var(--secundary-blue);
@@ -103,7 +107,7 @@ header a {
     z-index: 2;
     top: 0;
     height: 100%;
-    min-width: 65%;
+    min-width: 55%;
 }
 
 .banner-section-content{
@@ -170,15 +174,35 @@ header a {
     max-width: 1100px;
 }
 
-.problem-section-content .section-text-content{
+.problem-section .section-text-content, .solution-section .section-text-content{
     flex-direction: row;
 }
 
-.problem-section span{
+.problem-section span, .solution-section span{
     font-weight: bold;
 }
 
-.problem-section-content li{
+.problem-section-content li, .solution-section li{
     margin-bottom: 32px;
 }
+
+.solution-section{
+    background: url('../imgs/logoBackground.png');
+    background-color: var(--dark-blue);
+    padding: 96px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.solution-section-content{
+    max-width: 1100px;
+    color: var(--white);
+    text-align: center;
+}
+
+.solution-section h2{
+    margin-bottom: 52px;
+}
+
+
 
