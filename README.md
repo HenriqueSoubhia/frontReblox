@@ -6,15 +6,19 @@ Este repositório contém o código e os recursos para o projeto Reblox, uma pla
 
 ### Integrantes do Grupo
 
-Nome: Andrey Nagata
-RM: 555339
-Nome: Henrique Soubhia
+Nome: Andrey Nagata, 
+RM: 555339 
+
+Nome: Henrique Soubhia, 
 RM: 554493
-Nome: Oliver Kanai
+
+Nome: Oliver Kanai, 
 RM: 554954
-Nome: Pedro Gutierre
+
+Nome: Pedro Gutierre, 
 RM: 555445
-Nome: William Weile
+
+Nome: William Weile, 
 RM: 555132
 
 ### Visão Geral do Projeto
