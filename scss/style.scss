@@ -47,6 +47,13 @@ button {
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
+    text-align: center;
+    transition: background-color .3s;
+
+
+    &:hover{
+        background-color: darken($secundary-blue, 20%);
+    }
 }
 
 /* layout */
@@ -97,7 +104,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url('../imgs/placeholder1.png');
+    background-image: url('../imgs/banner-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -244,6 +251,7 @@ header {
             aspect-ratio: 16/9;
             object-fit: cover;
             flex: 1;
+            width: 200px;
         }
     }
 }
@@ -306,3 +314,48 @@ footer {
     padding: 48px 0;
     max-width: 1100px;
 }
+
+/* Login Section */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../imgs/login-bg.png");
+    background-position: center center;
+    padding: 40px 0;
+  }
+  
+  .login-section-content {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .login-section label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .login-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
